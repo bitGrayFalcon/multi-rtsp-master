@@ -11,7 +11,7 @@ in main() function:\n
 add your own rtsp address and topic name.
 remember run "catkin_make" after any changes
 
-#run
+# run
 make sure you have a ros master running, if not:
 roscore
 and in a new terminal:
