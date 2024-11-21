@@ -6,16 +6,16 @@ clone and put the folder into a ros workspace.
 
 
 # open your own rtsp streaming
-edit file /src/muti-rtsp.cpp(it's just a mispell.)
-in main() function:\n<br/>
-add your own rtsp address and topic name.
-remember run "catkin_make" after any changes
+edit file /src/muti-rtsp.cpp(it's just a mispell.)<br/>
+in main() function:<br/>
+add your own rtsp address and topic name.<br/>
+remember run "catkin_make" after any changes<br/>
 
 # run
-make sure you have a ros master running, if not:
-roscore
-and in a new terminal:
-(in your ros workspace dir)
-catkin_make
-source devel/setup.bash
+make sure you have a ros master running, if not:<br/>
+roscore<br/>
+and in a new terminal:<br/>
+(in your ros workspace dir)<br/>
+catkin_make<br/>
+source devel/setup.bash<br/>
 rosrun multi_rtsp multi_rtsp_node
