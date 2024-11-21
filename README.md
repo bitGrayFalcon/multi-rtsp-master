@@ -6,10 +6,10 @@ clone and put the folder into a ros workspace.
 
 
 # open your own rtsp streaming
-edit file /src/muti-rtsp.cpp(it's just a mispell.)<br/>
+edit file /src/muti-rtsp.cpp(it's just a mispell).<br/>
 in main() function:<br/>
 add your own rtsp address and topic name.<br/>
-remember run "catkin_make" after any changes<br/>
+remember to run "catkin_make" after any changes.<br/>
 
 # run
 make sure you have a ros master running, if not:<br/>
